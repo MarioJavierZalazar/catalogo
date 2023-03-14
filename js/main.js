@@ -1,7 +1,7 @@
 $.get('../data/objetos.json', (respuesta, estado) => {
         if (estado == 'success') {
             for (const item of respuesta){
-                Objets.push(new Objet(item.id,item.name,item.tag,item.picture))
+                Objets.push(new Objet(item.id,item.name,item.tag,item.picture,item.code))
             }
             grillaDeObjetosUI(Objets);
         } else {
