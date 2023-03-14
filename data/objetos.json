@@ -1,0 +1,44 @@
+[
+    {
+        "id":"1",
+        "name": "Khan Avarga",
+        "tag": ["Orcos", "Fantasia"],
+        "picture": "../img/objetos/KhanAvarga.jpg"
+    },
+    {
+        "id":"2",
+        "name": "Nomad Orr'ug A",
+        "tag": ["Orcos", "Fantasia"],
+        "picture": "../img/objetos/NomadOrr'ugA.jpg"
+    },
+    {
+        "id":"3",
+        "name": "Nomad Orr'ug B",
+        "tag": ["Orcos", "Fantasia"],
+        "picture": "../img/objetos/NomadOrr'ugB.jpg"
+    },
+    {
+        "id":"4",
+        "name": "Nomad Orr'ug C",
+        "tag": ["Orcos", "Fantasia"],
+        "picture": "../img/objetos/NomadOrr'ugC.jpg"
+    },
+    {
+        "id":"5",
+        "name": "Nomad Orr'ug D",
+        "tag": ["Orcos", "Fantasia"],
+        "picture": "../img/objetos/NomadOrr'ugD.jpg"
+    },
+    {
+        "id":"6",
+        "name": "Nomad Orr'ug E",
+        "tag": ["Orcos", "Fantasia"],
+        "picture": "../img/objetos/NomadOrr'ugE.jpg"
+    },
+    {
+        "id":"7",
+        "name": "Nomad Orr'ug F",
+        "tag": ["Orcos", "Fantasia"],
+        "picture": "../img/objetos/NomadOrr'ugF.jpg"
+    }
+]
