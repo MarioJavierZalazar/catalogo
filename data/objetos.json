@@ -37,14 +37,14 @@
     {
         "id":"6",
         "name": "Nomad Orr'ug E",
-        "tag": "Elfos",
+        "tag": "Orcos",
         "picture": "../img/objetos/NomadOrr'ugE.jpg",
         "code": "NomadOrrugE"
     },
     {
         "id":"7",
         "name": "Nomad Orr'ug F",
-        "tag": "Elfos",
+        "tag": "Orcos",
         "picture": "../img/objetos/NomadOrr'ugF.jpg",
         "code": "NomadOrrugF"
     }
