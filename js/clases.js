@@ -7,3 +7,9 @@ class Objet {
         this.code = code;
     }
 };
+
+class Tag {
+    constructor(tag) {
+        this.tag = tag
+    }
+};

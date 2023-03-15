@@ -1,1 +1,2 @@
-const Objets = [];
+const objets = [];
+const tags = [];

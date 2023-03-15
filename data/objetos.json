@@ -2,49 +2,49 @@
     {
         "id":"1",
         "name": "Khan Avarga",
-        "tag": ["Orcos", "Fantasia"],
+        "tag": "Orcos",
         "picture": "../img/objetos/KhanAvarga.jpg",
         "code": "KhanAvarga"
     },
     {
         "id":"2",
         "name": "Nomad Orr'ug A",
-        "tag": ["Orcos", "Fantasia"],
+        "tag": "Orcos",
         "picture": "../img/objetos/NomadOrr'ugA.jpg",
         "code": "NomadOrrugA"
     },
     {
         "id":"3",
         "name": "Nomad Orr'ug B",
-        "tag": ["Orcos", "Fantasia"],
+        "tag": "Orcos",
         "picture": "../img/objetos/NomadOrr'ugB.jpg",
         "code": "NomadOrrugB"
     },
     {
         "id":"4",
         "name": "Nomad Orr'ug C",
-        "tag": ["Orcos", "Fantasia"],
+        "tag": "Orcos",
         "picture": "../img/objetos/NomadOrr'ugC.jpg",
         "code": "NomadOrrugC"
     },
     {
         "id":"5",
         "name": "Nomad Orr'ug D",
-        "tag": ["Orcos", "Fantasia"],
+        "tag": "Orcos",
         "picture": "../img/objetos/NomadOrr'ugD.jpg",
         "code": "NomadOrrugD"
     },
     {
         "id":"6",
         "name": "Nomad Orr'ug E",
-        "tag": ["Orcos", "Fantasia"],
+        "tag": "Elfos",
         "picture": "../img/objetos/NomadOrr'ugE.jpg",
         "code": "NomadOrrugE"
     },
     {
         "id":"7",
         "name": "Nomad Orr'ug F",
-        "tag": ["Orcos", "Fantasia"],
+        "tag": "Elfos",
         "picture": "../img/objetos/NomadOrr'ugF.jpg",
         "code": "NomadOrrugF"
     }

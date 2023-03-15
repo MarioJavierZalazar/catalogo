@@ -18,10 +18,15 @@
     
     <div class="container-fluid">
       <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+        <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
           <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
           <h1>Catalogo</h1>
-        </a>
+        </div>
+        <div>
+          <div class="wip">
+            <img src="./img/wip.png" class="img-fluid" alt="WIP">
+          </div>
+        </div>
       </header>
     </div>
   </header>
@@ -32,50 +37,17 @@
           <div class="card-body">
             <h3 class="card-title">Filtros</h3>
             <div class="mb-2">
-              <p>
-                <a data-bs-toggle="collapse" href="#facctionCollapse" role="button" aria-expanded="false"
-                  aria-controls="facctionCollapse">
-                  Faccion
-                </a>
-              </p>
-              <div class="collapse" id="facctionCollapse">
-                <ul class="list-group">
-                  <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="ArtisanGuild">
-                    Elfo
-                  </li>
-                  <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="TitanForged">
-                    Elfo Oscruo
-                  </li>
-                </ul>
-              </div>
+              <ul class="list-group" id="tagList">
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="tagsFilter" value="all">
+                  Todos
+                </li>
+                <li class="list-group-item">
+                  <input class="form-check-input me-1" type="radio" name="tagsFilter" value="orcos">
+                  Orcos
+                </li>
+              </ul>
             </div>
-            <div class="mb-2">
-              <p>
-                <a data-bs-toggle="collapse" href="#AgeCollapse" role="button" aria-expanded="false"
-                  aria-controls="AgeCollapse">
-                  Tipo
-                </a>
-              </p>
-              <div class="collapse" id="AgeCollapse">
-                <ul class="list-group">
-                  <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="ArtisanGuild">
-                    Historico
-                  </li>
-                  <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="TitanForged">
-                    Fantasia
-                  </li>
-                  <li class="list-group-item">
-                    <input class="form-check-input me-1" type="checkbox" value="TitanForged">
-                    Sci-fi
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <a href="#" class="btn btn-primary">Aplicar Filtros</a>
           </div>
         </div>
       </div>
