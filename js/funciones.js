@@ -4,7 +4,7 @@ const grillaDeObjetosUI = (lista) => {
     $('#listaDeObjetos').append(`
         <div class="card col-10 col-sm-3 mx-sm-3 mx-auto mb-4 p-0">
             <a href="#" data-bs-toggle="modal" data-bs-target="#${object.code}">
-              <img src="${object.picture}" class="card-img-top img-fluid" alt="${object.name}">
+              <img src="../img/objetos/${object.picture}" class="card-img-top img-fluid" alt="${object.name}">
             </a>
             <div class="card-body">
               <h5 class="card-title">${object.name}</h5>
@@ -22,7 +22,7 @@ const grillaDeObjetosUI = (lista) => {
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body p-0">
-                      <img src="${object.picture}" class="img-fluid" alt="${object.name}">
+                      <img src="../img/objetos/${object.picture}" class="img-fluid" alt="${object.name}">
                     </div>
                   </div>
                 </div>
