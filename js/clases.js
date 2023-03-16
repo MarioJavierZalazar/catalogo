@@ -5,7 +5,7 @@ class Product {
         this.price = price;
         this.picture = picture;
         this.text = text;
-        this.text = usuario
+        this.usuario = usuario
     }
 };
 

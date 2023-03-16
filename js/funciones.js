@@ -1,7 +1,6 @@
 const grillaDeObjetosUI = (lista) => {
   $('#listaDeProductos').empty();
   for (const object of lista) {
-    console.log(object.picture.length);
     $('#listaDeProductos').append(`
         <div class="card col-10 col-sm-3 mx-sm-3 mx-auto mb-4 p-0">
             <a href="#" data-bs-toggle="modal" data-bs-target="#modelo">
@@ -23,18 +22,18 @@ const grillaDeObjetosUI = (lista) => {
                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body p-0">
-                    <div id="carouselExample" class="carousel slide">
-                      <div class="carousel-inner">
-                        <div class="carousel-item active">
-                          <img src="../img/objetos/${object.picture}" class="d-block w-100 img-fluid" alt="...">
+                      <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="../img/objetos/${object.picture}" class="d-block w-100 img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/objetos/${object.picture}" class="d-block w-100 img-fluid" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="../img/objetos/${object.picture}" class="d-block w-100 img-fluid" alt="...">
+                          </div>
                         </div>
-                        <div class="carousel-item">
-                          <img src="../img/objetos/${object.picture}" class="d-block w-100 img-fluid" alt="...">
-                        </div>
-                        <div class="carousel-item">
-                          <img src="../img/objetos/${object.picture}" class="d-block w-100 img-fluid" alt="...">
-                        </div>
-                      </div>
                       <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
@@ -43,10 +42,13 @@ const grillaDeObjetosUI = (lista) => {
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                       </button>
-                    </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Save changes</button>
+                      </div>
+                      <div class="m-3">
+                        ${object.text}
+                      </div>
+                      <div class="modal-footer d-flex justify-content-between">
+                         <p>Precio: $${object.price}</p>
+                        <a href="${object.usuario.contacto}" target="_blank" class="btn btn-primary">Contactar a ${object.usuario.name}</a>
                       </div>
                     </div>
                   </div>
