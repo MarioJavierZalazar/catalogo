@@ -10,8 +10,8 @@ const grillaDeObjetosUI = (lista) => {
             <div class="card-body">
               <h5 class="card-title">${object.name}</h5>
               <div class="tags d-flex justify-content-between">
-                <span class="badge rounded-pill fecha align-self-end">Publicado: ${object.fecha}</span>
                 <span class="badge rounded-pill tag">$${object.price}</span>
+                <a href="${object.usuario.contacto}" target="_blank" class="btn btn-primary">Contactar a ${object.usuario.name}</a>
               </div>
             </div>
             <div>
