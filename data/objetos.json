@@ -1,51 +1,14 @@
 [
     {
         "id":"1",
-        "name": "Khan Avarga",
-        "tag": "Orcos",
-        "picture": "KhanAvarga.jpg",
-        "code": "KhanAvarga"
-    },
-    {
-        "id":"2",
-        "name": "Nomad Orr'ug A",
-        "tag": "Orcos",
-        "picture": "NomadOrr'ugA.jpg",
-        "code": "NomadOrrugA"
-    },
-    {
-        "id":"3",
-        "name": "Nomad Orr'ug B",
-        "tag": "Orcos",
-        "picture": "NomadOrr'ugB.jpg",
-        "code": "NomadOrrugB"
-    },
-    {
-        "id":"4",
-        "name": "Nomad Orr'ug C",
-        "tag": "Orcos",
-        "picture": "NomadOrr'ugC.jpg",
-        "code": "NomadOrrugC"
-    },
-    {
-        "id":"5",
-        "name": "Nomad Orr'ug D",
-        "tag": "Orcos",
-        "picture": "NomadOrr'ugD.jpg",
-        "code": "NomadOrrugD"
-    },
-    {
-        "id":"6",
-        "name": "Nomad Orr'ug E",
-        "tag": "Orcos",
-        "picture": "NomadOrr'ugE.jpg",
-        "code": "NomadOrrugE"
-    },
-    {
-        "id":"7",
-        "name": "Nomad Orr'ug F",
-        "tag": "Orcos",
-        "picture": "NomadOrr'ugF.jpg",
-        "code": "NomadOrrugF"
+        "name": "Orko Rokero",
+        "price": 2000,
+        "picture": ["orkoRoker.jpeg"],
+        "text": "Orko Rokero de MrModulork, impreso en resina 3d",
+        "usuario": {
+            "id": 1,
+            "name":"Kanijoz Ztore",
+            "contacto":"https://api.whatsapp.com/send?phone=34654087601"
+        }
     }
 ]

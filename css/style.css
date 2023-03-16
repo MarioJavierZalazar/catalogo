@@ -4,8 +4,12 @@ body {
 
 .tag {
     background: black;
-}   
+}
 
 .wip{
     max-width: 50px;
+}
+
+.imgModal {
+    max-height: 400px;
 }

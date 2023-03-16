@@ -1,2 +1,1 @@
-const objets = [];
-const tags = [];
+const productos = [];
