@@ -9,6 +9,19 @@
             "id": 1,
             "name":"Kanijoz Ztore",
             "contacto":"https://api.whatsapp.com/send?phone=541173692881"
-        }
+        },
+        "fecha":"3032023"
+    },{
+        "id":"2",
+        "name": "Orko Pandillero",
+        "price": 1000,
+        "picture": ["orkoRoker.jpeg"],
+        "text": "Orko Pandillero de MrModulork, impreso en resina 3d",
+        "usuario": {
+            "id": 1,
+            "name":"Kanijoz Ztore",
+            "contacto":"https://api.whatsapp.com/send?phone=541173692881"
+        },
+        "fecha":"15032023"
     }
 ]

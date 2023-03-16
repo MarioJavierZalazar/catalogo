@@ -1,9 +1,29 @@
+* {
+    box-sizing: content-box;
+}
+
 body {
     background: #f2f2f2;
 }
 
 .tag {
     background: black;
+    font-size: 1rem;
+}
+
+.fecha {
+    color:darkslategray;
+    font-size: 0.6rem;
+}
+
+.card-img-top {
+    object-fit: cover;
+    max-height: 250px;
+}
+
+.carouselImg {
+    object-fit: cover;
+    max-height: 500px;
 }
 
 .wip{
